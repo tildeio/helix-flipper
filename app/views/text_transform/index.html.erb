@@ -1,0 +1,6 @@
+<h1>hello world</h1>
+
+<%= form_tag(widen_path) do -%>
+  <%= text_field_tag 'content', nil, placeholder: 'Type your text here', size: 75 %>
+  <%= submit_tag 'Transform me' %>
+<% end %>
