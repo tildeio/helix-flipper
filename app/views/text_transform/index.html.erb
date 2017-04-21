@@ -1,6 +1,10 @@
-<h1>hello world</h1>
+<h1>Helix Textify</h1>
 
-<%= form_tag(widen_path) do -%>
+<%= form_tag(transform_path) do -%>
   <%= text_field_tag 'content', nil, placeholder: 'Type your text here', size: 75 %>
-  <%= submit_tag 'Transform me' %>
+  <%= submit_tag 'Widen', name: "widen" %>
+  <%= submit_tag 'Narrow', name: "narrow" %>
+  <%= submit_tag 'Flip', name: "flip" %>
 <% end %>
+
+<p><em>Please remember that you can only narrow text that has been widened!</em></p>
