@@ -11,4 +11,5 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   s.add_dependency 'helix_runtime', '~> 0.6.1'
+  s.add_development_dependency 'rspec', '~> 3.6'
 end
