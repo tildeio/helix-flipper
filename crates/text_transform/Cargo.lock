@@ -1,0 +1,47 @@
+[root]
+name = "text_transform"
+version = "0.1.0"
+dependencies = [
+ "helix 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "cslice"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "cstr-macro"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "helix"
+version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "cslice 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "cstr-macro 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "libc 0.2.23 (registry+https://github.com/rust-lang/crates.io-index)",
+ "libcruby-sys 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "libc"
+version = "0.2.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "libcruby-sys"
+version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.2.23 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum cslice 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = "0f8cb7306107e4b10e64994de6d3274bd08996a7c1322a27b86482392f96be0a"
+"checksum cstr-macro 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "db53fddba18cdd35477a7213a3ef6acfbfa333c31b42ce019e544c4a1420a06f"
+"checksum helix 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)" = "b97612e592273062bb127433a22b201c9b58375c95fc7ace355ee2fc6be61ebe"
+"checksum libc 0.2.23 (registry+https://github.com/rust-lang/crates.io-index)" = "e7eb6b826bfc1fdea7935d46556250d1799b7fe2d9f7951071f4291710665e3e"
+"checksum libcruby-sys 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)" = "d9ae575f064157bc55bb543589971959e3a0163fd49be03fef4c1f3440146114"
