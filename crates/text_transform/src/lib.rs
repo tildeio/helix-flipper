@@ -4,6 +4,12 @@ extern crate helix;
 ruby! {
     class TextTransform {
         def flip(text: String) -> String {
+            if text == "┬──┬ ノ( ゜-゜ノ)" {
+                return "(╯°□°）╯︵ ┻━┻".to_string();
+            } else if text == "(╯°□°）╯︵ ┻━┻" {
+                return "┬──┬ ノ( ゜-゜ノ)".to_string();
+            }
+
             text.chars().rev().map(|char| {
                 match char {
                     '!' => '¡', '"' => '„', '&' => '⅋', '\'' => '‚', '(' => ')', ')' => '(', ',' => '‘', '.' => '˙',
