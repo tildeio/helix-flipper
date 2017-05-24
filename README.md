@@ -1,24 +1,5 @@
-# README
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tildeio/helix-flipper/tree/master)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Flipper
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is the example app from the [Helix Getting Started tutorial](https://usehelix.com/getting_started).

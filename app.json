@@ -1,0 +1,11 @@
+{
+  "name": "Flipper",
+  "description": "Example app from the Helix Getting Started tutorial",
+  "website": "https://usehelix.com/getting_started",
+  "repository": "https://github.com/tildeio/helix-flipper",
+  "keywords": ["ruby", "rails", "rust", "helix"],
+  "buildpacks": [
+    { "url": "https://github.com/hone/heroku-buildpack-rust" },
+    { "url": "heroku/ruby" }
+  ]
+}
